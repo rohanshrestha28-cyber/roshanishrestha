@@ -182,56 +182,98 @@
         </div>
     </section>
 
-    <!-- Gallery Section with Clickable Images / Lightbox Preview -->
+<!-- Gallery Section with Horizontal Slider -->
     <section id="gallery" class="py-24 px-6 border-t border-stone-900">
-        <div class="max-w-4xl mx-auto text-center">
+        <div class="max-w-6xl mx-auto text-center">
             <span class="text-amber-400 font-light tracking-[0.2em] text-xs uppercase block mb-2">Visual Showcase</span>
             <h2 class="text-3xl font-serif mb-4 text-stone-100">Recent Transformations</h2>
-            <p class="text-stone-400 font-light text-sm mb-12">Click on any image to view it in full size.</p>
+            <p class="text-stone-400 font-light text-sm mb-12">Swipe left or right to view transformations. Click any image for full size.</p>
             
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-                <div onclick="openLightbox('look6.jpg', 'दूबोको माला')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look6.jpg" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+            <!-- Horizontal Sliding Container -->
+            <div class="flex overflow-x-auto space-x-6 pb-6 scrollbar-thin scrollbar-thumb-stone-800 scrollbar-track-transparent snap-x snap-mandatory text-left">
+
+                <!-- Gallery Item 1 radha -->
+                <div onclick="openLightbox('look7.jpeg', 'Radha Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look7.jpeg" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
+                    </div>
+                </div> 
+
+                <!-- Gallery Item 2 Radha -->
+                <div onclick="openLightbox('look8.jpeg', 'Radha Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look8.jpeg" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
+                    </div>
+                </div> 
+
+                <!-- Gallery Item 3 radha -->
+                <div onclick="openLightbox('look9.jpeg', 'Radha Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look9.jpeg" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
+                    </div>
+                </div> 
+                <!-- Gallery Item 4 Radha -->
+
+                <div onclick="openLightbox('look10.jpeg', 'Radha Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look10.jpeg" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                    <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                        <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
+                    </div>
+                </div> 
+                
+                <!-- Gallery Item 1 -->
+                <div onclick="openLightbox('look6.jpg', 'दूबोको माला')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look6.jpg" alt="दूबोको माला" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div>
 
-                <div onclick="openLightbox('look2.png', 'Make Up')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look2.png" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                <!-- Gallery Item 2 -->
+                <div onclick="openLightbox('look2.png', 'Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look2.png" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div> 
 
-                <div onclick="openLightbox('look5.png', 'Bridal Transformation')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look5.png" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                <!-- Gallery Item 3 -->
+                <div onclick="openLightbox('look5.png', 'Bridal Transformation')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look5.png" alt="Bridal Transformation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div>            
 
-                <div onclick="openLightbox('look4.png', 'Hair Look')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look4.png" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                <!-- Gallery Item 4 -->
+                <div onclick="openLightbox('look4.png', 'Hair Look')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look4.png" alt="Hair Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div> 
 
-                <div onclick="openLightbox('look1.png', 'Bridal Transformation ')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look1.png" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                <!-- Gallery Item 5 -->
+                <div onclick="openLightbox('look1.png', 'Bridal Transformation')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look1.png" alt="Bridal Transformation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div>  
 
-                <div onclick="openLightbox('look3.png', 'Make Up')" class="group cursor-pointer bg-stone-900 border border-stone-800 aspect-square rounded-xl overflow-hidden relative shadow-lg">
-                    <img src="look3.png" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                <!-- Gallery Item 6 -->
+                <div onclick="openLightbox('look3.png', 'Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
+                    <img src="look3.png" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div> 
+
             </div>
+            <p class="text-stone-500 text-xs mt-4 italic">← Swipe left and right to see more →</p>
         </div>
     </section>
 
