@@ -61,8 +61,23 @@
                     <div>📍 Studio & Mobile Services</div>
                 </div>
             </div>
-            <div class="h-full max-h-[440px] flex items-center justify-center">
-                <img src="roshani1.png" alt="Roshani Shrestha" class="w-full h-full object-cover rounded-2xl border border-stone-800 shadow-2xl object-top">
+
+            <!-- Auto-Fading Slideshow Box -->
+            <div class="h-[440px] w-full max-w-sm relative rounded-2xl overflow-hidden border border-stone-800 shadow-2xl mx-auto bg-stone-900">
+                <!-- Slide 1 (Roshani Main Photo) -->
+                <img src="roshani1.png" alt="Roshani Shrestha" class="about-slide absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000 ease-in-out opacity-100">
+                
+                <!-- Slide 2 -->
+                <img src="roshani2.png" alt="Bridal Transformation" class="about-slide absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000 ease-in-out opacity-0">
+                
+                <!-- Slide 3 -->
+                <img src="roshani3.png" alt="Make Up Look" class="about-slide absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000 ease-in-out opacity-0">
+                
+                <!-- Slide 4 -->
+                <img src="roshani4.jpeg" alt="Party Look" class="about-slide absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000 ease-in-out opacity-0">
+                
+                <!-- Slide 5 -->
+                <img src="roshani5.jpeg" alt="Bridal Artistry" class="about-slide absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-1000 ease-in-out opacity-0">
             </div>
         </div>
     </section>
@@ -167,7 +182,6 @@
         </div>
     </section>
 
-
     <!-- Quick Contact Banner (Gap Reduced) -->
     <section class="py-10 px-6 border-t border-stone-900 bg-stone-900/40 text-center">
         <div class="max-w-xl mx-auto">
@@ -182,7 +196,7 @@
         </div>
     </section>
 
-<!-- Gallery Section with Horizontal Slider -->
+    <!-- Gallery Section with Horizontal Slider -->
     <section id="gallery" class="py-24 px-6 border-t border-stone-900">
         <div class="max-w-6xl mx-auto text-center">
             <span class="text-amber-400 font-light tracking-[0.2em] text-xs uppercase block mb-2">Visual Showcase</span>
@@ -215,8 +229,8 @@
                         <span class="text-amber-200 text-xs tracking-widest uppercase border border-amber-300/60 px-3 py-1.5 rounded-full bg-stone-950/60">View Photo</span>
                     </div>
                 </div> 
-                <!-- Gallery Item 4 Radha -->
 
+                <!-- Gallery Item 4 Radha -->
                 <div onclick="openLightbox('look10.jpeg', 'Radha Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look10.jpeg" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -224,7 +238,7 @@
                     </div>
                 </div> 
                 
-                <!-- Gallery Item 1 -->
+                <!-- Gallery Item 5 -->
                 <div onclick="openLightbox('look6.jpg', 'दूबोको माला')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look6.jpg" alt="दूबोको माला" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -232,7 +246,7 @@
                     </div>
                 </div>
 
-                <!-- Gallery Item 2 -->
+                <!-- Gallery Item 6 -->
                 <div onclick="openLightbox('look2.png', 'Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look2.png" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -240,7 +254,7 @@
                     </div>
                 </div> 
 
-                <!-- Gallery Item 3 -->
+                <!-- Gallery Item 7 -->
                 <div onclick="openLightbox('look5.png', 'Bridal Transformation')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look5.png" alt="Bridal Transformation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -248,7 +262,7 @@
                     </div>
                 </div>            
 
-                <!-- Gallery Item 4 -->
+                <!-- Gallery Item 8 -->
                 <div onclick="openLightbox('look4.png', 'Hair Look')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look4.png" alt="Hair Look" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -256,7 +270,7 @@
                     </div>
                 </div> 
 
-                <!-- Gallery Item 5 -->
+                <!-- Gallery Item 9 -->
                 <div onclick="openLightbox('look1.png', 'Bridal Transformation')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look1.png" alt="Bridal Transformation" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -264,7 +278,7 @@
                     </div>
                 </div>  
 
-                <!-- Gallery Item 6 -->
+                <!-- Gallery Item 10 -->
                 <div onclick="openLightbox('look3.png', 'Make Up')" class="min-w-[280px] md:min-w-[340px] h-[400px] flex-shrink-0 snap-center group cursor-pointer bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden relative shadow-xl">
                     <img src="look3.png" alt="Make Up" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-stone-950/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
@@ -297,7 +311,7 @@
 
             <!-- Contact Form -->
             <form action="https://formsubmit.co/roshanishrestha20050@gmail.com" method="POST" class="space-y-4 text-left">
-                <!-- क्याप्चା र भेरिफिकेसन हटाउने लाइन -->
+                <!-- क्याप्चा र भेरिफिकेसन हटाउने लाइन -->
                 <input type="hidden" name="_captcha" value="false">
 
                 <div>
@@ -326,8 +340,9 @@
         <p>&copy; 2026 Beautician by Roshani Shrestha. All Rights Reserved.</p>
     </footer>
 
-    <!-- JavaScript for Lightbox Modal -->
+    <!-- JavaScript Scripts -->
     <script>
+        // 1. Lightbox Modal functions
         function openLightbox(imgSrc, captionText) {
             const modal = document.getElementById('lightboxModal');
             const img = document.getElementById('lightboxImg');
@@ -345,12 +360,30 @@
             modal.classList.add('hidden');
         }
 
-        // Close when clicking outside the image
         document.getElementById('lightboxModal').addEventListener('click', function(e) {
             if (e.target === this) {
                 closeLightbox();
             }
         });
+
+        // 2. Smooth Auto-Crossfade Slideshow for About Section
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.about-slide');
+
+        if (slides.length > 0) {
+            setInterval(() => {
+                // Current photo fade out
+                slides[currentSlideIndex].classList.remove('opacity-100');
+                slides[currentSlideIndex].classList.add('opacity-0');
+
+                // Move to next slide
+                currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+
+                // Next photo fade in
+                slides[currentSlideIndex].classList.remove('opacity-0');
+                slides[currentSlideIndex].classList.add('opacity-100');
+            }, 3500); // Har 3.5 seconds ma smoothly badlincha
+        }
     </script>
 </body>
 </html>
